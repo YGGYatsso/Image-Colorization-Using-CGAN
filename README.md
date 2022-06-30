@@ -16,7 +16,7 @@ We will use CGAN based deep learning model to colorise black and white images.Go
 <a href='https://jonathan-hui.medium.com/gan-cgan-infogan-using-labels-to-improve-gan-8ba4de5f9c3d'>C-GAN</a>.
 * Colorisation can be thought of as image to image translation and CGAN is perfect in realising this task,we feed a black and white image and get colorise output.For Generator Model ,we will be implementing modified U-net Architecture and in Discrminator we will be using PatchGAN discriminator ,rather than giving a single scalar value it gives output having matrix based output for each input.More detail about architecture can be found at <a href='https://arxiv.org/pdf/1611.07004.pdf'>PIX2PIX</a>
 * Sample U-net
-* ![](unet.png)
+ ![](unet.png)
 
 ## Data description
 * We are using fastai api to download the 10000 image samples from COCO dataset. 
