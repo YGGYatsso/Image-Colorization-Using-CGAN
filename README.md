@@ -28,11 +28,12 @@ We will use CGAN based deep learning model to colorise black and white images.Go
          └── ... (2000 sets of  images total)</pre> 
       
 * Steps:
-1. !pip install -U fastai
-2. from fastai.data import untar__data,URLS
-3. coco_path = untar_data(URLs.COCO_SAMPLE)
-4. coco_path = str(coco_path) + "/train_sample"
-5. paths = glob.glob(path + "/*.jpg")
+1. <tt>!pip install -U fastai</tt>
+2. <tt>from fastai.data import untar__data,URLS</tt>
+3. <tt>coco_path = untar_data(URLs.COCO_SAMPLE)</tt>
+4. <tt>coco_path = str(coco_path) + "/train_sample"</tt>
+5. <tt>paths = glob.glob(path + "/*.jpg")</tt>
+
 After running above instructions ,paths will contain all imagefile paths in a list.
 
 * Color space
