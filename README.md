@@ -79,7 +79,13 @@ After running above instructions ,paths will contain all imagefile paths in a li
 Every epoch involves 500 iteration, so 140 epochs aggregate 70000 iterations.Discriminator loss remains very low and Generator loss continues to drop with slow rate.
 
 ## Replication On Device
-
+   1. First import all libraries as done in code.py file
+   2. Then create an instance of Generator and load the trained weights.
+   3. Rescale the Black-White image pixels.
+   4. Feed it to Generator and concat the output with Black-White.
+   5. Convert the concatenated data using LAB2RGB function given in code.py file
+   6. This final output is your colorised image.
+   
 
   
     
