@@ -84,7 +84,7 @@ Every epoch involves 500 iterations, so 140 epochs aggregate 70000 iterations.Di
    3. Rescale the Black-White image pixels.
    4. Feed it to Generator and concat the output with Black-White.
    5. Convert the concatenated data using LAB2RGB function given in code.py file
-   6. This final output is your colorised image.
+   6. This final output is your colorized image.
    
 
   
