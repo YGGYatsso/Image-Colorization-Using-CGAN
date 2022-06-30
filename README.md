@@ -1,6 +1,6 @@
 # Image Colorization Using Conditional Generative Adversarial Network
-*  ![](black_white.png)
-*  ![](color_image.png)
+  ![](black_white.png)
+  ![](color_image.png)
 ## Table of Contents:
 * Overview of project
 * CGAN and Model Architecture
@@ -24,7 +24,7 @@ We will use CGAN based deep learning model to colorise black and white images.Go
 └── fastai api(COCO Dataset)   
      ├── train    
      │   └── ... (8000 sets of  images total)           
-     └── test
+     └── valid
          └── ... (2000 sets of  images total)</pre> 
       
 * Steps:
