@@ -76,7 +76,7 @@ After running above instructions ,paths will contain all imagefile paths in a li
 ## Losses
 ![](epochs_images/losses.png)
 
-Every epoch involves 500 iteration, so 140 epochs aggregate 70000 iterations.Discriminator loss remains very low and Generator loss continues to drop with slow rate.
+Every epoch involves 500 iterations, so 140 epochs aggregate 70000 iterations.Discriminator loss remains very low and Generator loss continues to drop with slow rate.
 
 ## Replication On Device
    1. First import all libraries as done in code.py file
