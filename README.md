@@ -72,7 +72,7 @@ After running above instructions ,paths will contain all imagefile paths in a li
     6. Epochs=140(train_data)
 ![](epochs_images/epochs_140_train.png)
    
-    * With further training predictions can be imporved further.
+   * With further training predictions can be imporved further.
 ## Losses
 ![](epochs_images/losses.png)
 
